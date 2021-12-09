@@ -8,8 +8,8 @@ function post_export_options_page()
 
 {
     add_menu_page(
-        __('Post Export Options Page', 'select_post_export'),
-        'Post Export',
+        __('Select Options Page', 'select_post_export'),
+        'Select Post Export',
         'manage_options',
         'post-export-options',
         'select_post_export\\options\\post_export_options',
@@ -30,7 +30,7 @@ function post_export_options()
 {
 ?>
     <div class="wrap">
-        <h1>Post export Options</h1>
+        <h1>Select Post Export Options</h1>
 
 
         <form method="post" action="options.php">

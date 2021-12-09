@@ -1,4 +1,4 @@
-=== Post Export ===
+=== Select Post Export ===
  
 Contributors: ilenejohnson
 Tags: Export, Import
@@ -14,7 +14,7 @@ Plugin to let user select individual posts to export via the post listing
 
 == Description ==
 
-Post Export is a WordPress plugin that permits users to select individual posts for export.  The user can then take the exported file and import the posts into another WordPress installation using the usual WordPress import function. 
+Select Post Export is a WordPress plugin that permits users to select individual posts for export.  The user can then take the exported file and import the posts into another WordPress installation using the usual WordPress import function. 
 
 == Installation ==
 
@@ -23,9 +23,9 @@ Post Export is a WordPress plugin that permits users to select individual posts 
 
 == Screenshots ==
 
-1. Post Export Options
+1. Select Post Export Options
 2. Menu Dropdown
-3. Post Export
+3. Select Post Export
 
 
 == Frequently Asked Questions == 
