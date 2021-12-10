@@ -28,10 +28,10 @@ along with Select Post Export. If not, see {URI to Plugin License}.
 
 
 
-define('WP_P_EXPORT', __FILE__);
-define('WP_P_EXPORT_DIR', untrailingslashit(dirname(WP_P_EXPORT)));
+define('SPEX_EXPORT', __FILE__);
+define('SPEX_EXPORT_DIR', untrailingslashit(dirname(SPEX_EXPORT)));
 
 if (!defined('WPINC')) {
     die;
 }
-require_once(WP_P_EXPORT_DIR . '/includes/post-export-options.php');
+require_once(SPEX_EXPORT_DIR . '/includes/post-export-options.php');

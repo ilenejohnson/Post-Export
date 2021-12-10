@@ -1,10 +1,10 @@
 <?php
 
-namespace select_post_export\exportclass;
+namespace SPEX_post_export\exportclass;
 
 define('SPE_VERSION', '1.0');
 
-class SelectPostExportClass
+class SPEX_SelectPostExport
 {
     /**
      * Constructor
@@ -235,7 +235,7 @@ function handle_the_action($redirect_url, $action, $post_ids)
 
 
 
-        new  SelectPostExportClass($post_ids);
+        new  SPEX_SelectPostExport($post_ids);
         exit();
     }
     return $redirect_url;
@@ -244,7 +244,7 @@ function handle_the_action($redirect_url, $action, $post_ids)
 function handle_the_options()
 {
     $the_options = get_option('select_post_options');
-   
+
     if (!empty($the_options)) {
         foreach ($the_options as $key => $o) {
             if (strcmp($key, 'media') == 0) {
@@ -264,7 +264,7 @@ function handle_the_options()
                 $action = 'handle_bulk_actions-upload';
             else
                 $action = 'handle_bulk_actions-edit-' . $key;
-           
+
 
             add_filter($action, function ($redirect_url, $action, $post_ids) {
                 return handle_the_action($redirect_url, $action, $post_ids);
@@ -272,4 +272,4 @@ function handle_the_options()
         }
     }
 }
-add_action('admin_init', 'select_post_export\\exportclass\\handle_the_options');
+add_action('admin_init', 'SPEX_post_export\\exportclass\\handle_the_options');
