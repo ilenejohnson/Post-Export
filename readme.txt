@@ -23,9 +23,9 @@ Select Post Export is a WordPress plugin that permits users to select individual
 
 == Screenshots ==
 
-1. Select Post Export Options
-2. Menu Dropdown
-3. Select Post Export
+1. Select Post Export Options post-export-options.jpg
+2. Menu Dropdown  export-post.jpg
+3. Select Post Export post-export-screen.jpg
 
 
 == Frequently Asked Questions == 
