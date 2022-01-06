@@ -3,7 +3,7 @@
 Contributors: ilenejohnson
 Tags: Export, Import
 Requires at least: 5.5
-Donate link: https://tinyurl.com/2s45jb3e
+Donate link: https://www.paypal.com/donate/?hosted_button_id=JXZSC8T8BK7ME
 Tested up to: 5.8
 Stable tag: 1.0
 Requires PHP: 7.2
