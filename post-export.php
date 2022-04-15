@@ -5,7 +5,7 @@ Plugin URI: https://github.com/ilenejohnson/Post-Export
 Description: Plugin to let user select individual posts to export via the post listing
 Version: 1.0
 Requires at least: 5.5
-Requires PHP: 7.2
+Requires PHP: 7.3
 Author: Ilene Johnson
 Author URI: https://ikjweb.com
 License: GPLv2 or later
